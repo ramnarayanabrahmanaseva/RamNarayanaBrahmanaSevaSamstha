@@ -98,7 +98,7 @@ body {
     radial-gradient(circle at 90% 80%, rgba(128, 18, 22, 0.02) 0%, transparent 40%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   body {
     padding-bottom: 0;
   }
@@ -3683,7 +3683,7 @@ html[lang="te"] .footer-brand-subtitle {
   -webkit-backdrop-filter: blur(14px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .mobile-action-bar {
     display: none;
   }
@@ -3722,8 +3722,8 @@ html[lang="te"] .footer-brand-subtitle {
 /* Floating Scroll Navigation Controls (Up and Down Circles) */
 .scroll-nav-controls {
   position: fixed;
-  bottom: calc(72px + env(safe-area-inset-bottom, 0px));
-  right: 12px;
+  bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  right: 14px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -3731,7 +3731,17 @@ html[lang="te"] .footer-brand-subtitle {
   pointer-events: none;
 }
 
-@media (min-width: 768px) {
+/* Tablets & Tabs Breakpoint (768px - 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .scroll-nav-controls {
+    bottom: calc(92px + env(safe-area-inset-bottom, 0px));
+    right: 20px;
+    gap: 10px;
+  }
+}
+
+/* Desktop Breakpoint (1200px and up) - No fixed bottom bar */
+@media (min-width: 1200px) {
   .scroll-nav-controls {
     bottom: 30px;
     right: 25px;
@@ -3761,7 +3771,20 @@ html[lang="te"] .footer-brand-subtitle {
   padding: 0;
 }
 
+.scroll-nav-btn:not(.visible),
+.back-to-top:not(.visible) {
+  display: none !important;
+}
+
 @media (min-width: 768px) {
+  .scroll-nav-btn,
+  .back-to-top {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
   .scroll-nav-btn,
   .back-to-top {
     width: 46px;
@@ -3771,6 +3794,7 @@ html[lang="te"] .footer-brand-subtitle {
 
 .scroll-nav-btn.visible,
 .back-to-top.visible {
+  display: flex;
   opacity: 1;
   visibility: visible;
   transform: scale(1);
