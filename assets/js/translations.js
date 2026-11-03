@@ -280,6 +280,8 @@ const translations = {
     contact_email_label: "ఈమెయిల్ చిరునామా:",
     contact_hours_label: "సేవా సమయాలు:",
     contact_hours_val: "రోజూ ఉదయం 8:00 నుండి సాయంత్రం 6:00 వరకు",
+    contact_booking_label: "కర్మ బుకింగ్:",
+    contact_location_label: "సంస్థ లొకేషన్:",
     contact_cta_maps: "📍 గూగుల్ మ్యాప్స్‌లో చూడండి",
     contact_cta_whatsapp: "💬 వాట్సాప్‌లో సంప్రదించండి (+91 77802 23977)",
 
@@ -586,6 +588,8 @@ const translations = {
     contact_email_label: "Email Address:",
     contact_hours_label: "Service Timings:",
     contact_hours_val: "Every Day: 8:00 AM – 6:00 PM",
+    contact_booking_label: "Book a Ritual:",
+    contact_location_label: "Location:",
     contact_cta_maps: "📍 Open in Google Maps",
     contact_cta_whatsapp: "💬 Connect on WhatsApp (+91 77802 23977)",
 
