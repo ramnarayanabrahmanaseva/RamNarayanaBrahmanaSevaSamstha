@@ -1,19 +1,19 @@
 const whatsappMessages = {
   te: {
-    general: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
-    masikam: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    samvatsarikam: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    abdikam: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    pinda: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    promise: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
+    general: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
+    masikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    samvatsarikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    abdikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    pinda: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    promise: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
   },
   en: {
-    general: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about your ancestral services.",
-    masikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Masikam ritual arrangements.",
-    samvatsarikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
-    abdikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Abdikam ritual arrangements.",
-    pinda: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
-    promise: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about complete ancestral ritual management."
+    general: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about your ancestral services.",
+    masikam: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Masikam ritual arrangements.",
+    samvatsarikam: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
+    abdikam: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Abdikam ritual arrangements.",
+    pinda: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
+    promise: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about complete ancestral ritual management."
   }
 };
 
@@ -457,7 +457,8 @@ function initRitualForm() {
     const special = document.getElementById('rf_special')?.value.trim() || (lang === 'en' ? 'None' : 'ఏమీ లేవు');
 
     if (lang === 'en') {
-      return `🙏 Namaskaram.
+      return `Namaskaram,
+Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).
 
 
 Details Required for Ancestral Rituals:
@@ -490,8 +491,8 @@ We kindly request you to review the above details and guide us with the procedur
 🙏 Dhanyavadhalu.
 Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
     } else {
-      return `నమస్కారం, 
-రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ.
+      return `నమస్కారం,
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).
 
 
 కర్మకు సంబంధించిన వివరాలు :
