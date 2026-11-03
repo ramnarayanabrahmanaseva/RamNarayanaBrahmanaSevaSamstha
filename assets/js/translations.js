@@ -15,7 +15,7 @@ const translations = {
     nav_home: "ప్రధాన పేజీ",
     nav_about: "సంస్థ గురించి",
     nav_services: "మా కర్మలు",
-    nav_benefits: "ప్రయోజనాలు",
+    nav_benefits: "ఆధ్యాత్మిక విశిష్టత & ప్రయోజనాలు",
     nav_why_us: "ఎందుకు ఎంచుకోవాలి",
     nav_gallery: "బ్యానర్లు & కరపత్రం",
     nav_contact: "సంప్రదించండి",
@@ -129,7 +129,7 @@ const translations = {
     srv_pinda_diff_desc: "తర్పణం అంటే నువ్వులు కలిపిన నీటిని సమర్పించడం. పిండప్రదానం అంటే అన్నంతో చేసిన పిండాలను సమర్పించడం. రెండూ కలిసి చేస్తారు.",
 
     // 4. Differences Section (మూడింటి తేడాలు)
-    diff_badge: "ఆచరణ క్రమం & అవగాహన",
+    diff_badge: "కర్మ విధానం & సాంప్రదాయం",
     diff_title: "మాసికం, సంవత్సరికం, ఆబ్దికం<br>తేడా తెలుసా?",
     diff_sub: "సనాతన ధర్మ సంప్రదాయంలో పితృకార్యాల స్పష్టమైన తేడాలు & క్రమం",
     diff_badge_step1: "దశ 1",
@@ -156,7 +156,7 @@ const translations = {
     promise_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో — సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
 
     // 5. Why Do It? Benefits (ఎందుకు చేయాలి? ప్రయోజనాలు)
-    benefits_badge: "పితృ కర్మల విశిష్టత",
+    benefits_badge: "ఆధ్యాత్మిక ప్రాధాన్యత & ప్రయోజనాలు",
     benefits_title: "పితృదేవతలకు కర్మలు<br>ఎందుకు చేయాలి?",
     benefits_sub: "మనకు జన్మనిచ్చి, పెంచి, విలువలు నేర్పిన పూర్వీకులకు కృతజ్ఞత తెలుపుకునే పవిత్ర కర్తవ్యం.",
     ben_ctx_title: "కర్మల ప్రాధాన్యత:",
@@ -188,7 +188,9 @@ const translations = {
     why_3_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో పరిశుభ్రమైన, ప్రశాంతమైన వాతావరణంలో శ్రద్ధాభక్తులతో కర్మలు జరుగుతాయి.",
     why_4_title: "కారణం 4:<br>సంపూర్ణ నిర్వహణ",
     why_4_desc: "తిథి, పితృదేవత పేరు చెప్తే చాలు. సూచనలు, మార్గదర్శకత్వం, ఏర్పాట్లన్నీ మేము చూసుకుంటాము.",
-    srv_diff_name: "మూడింటి తేడాలు",
+    srv_diff_name: "కర్మ విధానం & సాంప్రదాయం",
+    nav_srv_process: "కర్మ విధానం & సాంప్రదాయం",
+    nav_srv_blessings: "ఆధ్యాత్మిక ప్రయోజనాలు & ఆశీస్సులు",
 
     // Ritual Details Intake Form
     nav_ritual_form: "కర్మ బుకింగ్",
@@ -327,7 +329,7 @@ const translations = {
     nav_home: "Home",
     nav_about: "About the Samstha",
     nav_services: "Our Rituals",
-    nav_benefits: "Benefits of Shraddha",
+    nav_benefits: "Spiritual Importance & Benefits",
     nav_why_us: "Why Choose Us",
     nav_gallery: "Banners & Brochure",
     nav_contact: "Contact Us",
@@ -441,7 +443,7 @@ const translations = {
     srv_pinda_diff_desc: "Tarpanam is the sacred offering of water mixed with black sesame seeds (Tarpana). Pinda Pradanam is the offering of cooked rice pindas. Both are performed harmoniously together.",
 
     // 4. Differences Section (Key Differences)
-    diff_badge: "Sacred Sequence & Clarity",
+    diff_badge: "Ritual Process & Tradition",
     diff_title: "Masikam, Samvatsarikam, Abdikam<br>Do you know the difference?",
     diff_sub: "Clear understanding of ancestral rites and sequence as per Sanatana Dharma",
     diff_badge_step1: "Step 1",
@@ -468,7 +470,7 @@ const translations = {
     promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals — fully managed at our Dilsukhnagar Samstha premises.",
 
     // 5. Why Do It? Benefits
-    benefits_badge: "Spiritual Significance",
+    benefits_badge: "Spiritual Importance & Benefits",
     benefits_title: "Why should we perform rituals<br>for<br>our ancestors?",
     benefits_sub: "A sacred duty to express eternal gratitude to our ancestors who gave us birth, nurtured us, and instilled sacred values.",
     ben_ctx_title: "Importance of the Rites:",
@@ -500,7 +502,9 @@ const translations = {
     why_3_desc: "A pure, serene, and spiritually uplifting setting at our dedicated Dilsukhnagar Samstha.",
     why_4_title: "Reason 4:<br>Complete Management",
     why_4_desc: "Just provide the tithi and ancestor's name; all guidance, Vedic Purohits, Bhokthas, and arrangements are handled by us.",
-    srv_diff_name: "Key Differences",
+    srv_diff_name: "Ritual Process & Tradition",
+    nav_srv_process: "Ritual Process & Tradition",
+    nav_srv_blessings: "Spiritual Purpose & Blessings",
 
     // Ritual Details Intake Form
     nav_ritual_form: "Ritual Booking",
