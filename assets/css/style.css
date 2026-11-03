@@ -1469,14 +1469,24 @@ html[lang="te"] .drawer-brand-title {
 
 @media (max-width: 520px) {
   .hero-cta-group {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     gap: 0.52rem;
   }
   .hero-cta-row-top {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     gap: 0.52rem;
+  }
+  .hero-cta-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .hero-cta-row-top .btn-gold-cta,
   .hero-cta-row-top .btn-whatsapp,
@@ -1486,12 +1496,23 @@ html[lang="te"] .drawer-brand-title {
   .hero-cta-group .btn-whatsapp,
   .hero-cta-group .btn-register-cta,
   .hero-cta-group .btn-location-glass {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    min-height: 40px !important;
-    padding: 0.52rem 1rem !important;
-    font-size: 0.9rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 280px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    gap: 0.5rem !important;
+    box-sizing: border-box !important;
   }
   html[lang="te"] .hero-cta-row-top .btn-gold-cta,
   html[lang="te"] .hero-cta-row-top .btn-whatsapp,
@@ -1501,7 +1522,7 @@ html[lang="te"] .drawer-brand-title {
   html[lang="te"] .hero-cta-group .btn-whatsapp,
   html[lang="te"] .hero-cta-group .btn-register-cta,
   html[lang="te"] .hero-cta-group .btn-location-glass {
-    font-size: 0.94rem !important;
+    font-size: 0.92rem !important;
   }
 }
 
@@ -3838,12 +3859,29 @@ html, body {
   }
 
   .hero-cta-group {
+    display: flex !important;
     flex-direction: column !important;
+    align-items: center !important;
     width: 100% !important;
     gap: 0.52rem !important;
   }
 
-  /* Medium Size CTA Buttons for Mobile (iPhone, Android) */
+  .hero-cta-row-top {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 0.52rem !important;
+  }
+
+  .hero-cta-row-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* Pill-Shaped Medium Buttons for Mobile (iPhone, Android) styled like (🪔 • Tradition • Devotion • Service) */
   .hero-cta-group .btn-gold-cta,
   .hero-cta-group .btn-whatsapp,
   .hero-cta-group .btn-register-cta,
@@ -3852,21 +3890,28 @@ html, body {
   .hero-cta-row-top .btn-whatsapp,
   .hero-cta-row-top .btn-location-glass,
   .hero-cta-row-center .btn-register-cta,
-  .promise-banner .btn-gold-cta,
-  .promise-banner .btn-whatsapp,
-  .promise-banner .btn-register-cta,
-  .promise-banner .btn-location-glass,
+  .promise-actions a,
+  .promise-banner a,
   .guidance-actions a,
   .nav-drawer .btn-primary,
   .nav-drawer .btn-whatsapp,
   .nav-drawer .btn-secondary {
-    width: 100% !important;
-    max-width: 100% !important;
+    display: inline-flex !important;
+    align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
-    min-height: 40px !important;
-    font-size: 0.9rem !important;
-    padding: 0.52rem 1rem !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 280px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    gap: 0.5rem !important;
     box-sizing: border-box !important;
   }
 
@@ -3878,22 +3923,42 @@ html, body {
   html[lang="te"] .hero-cta-row-top .btn-whatsapp,
   html[lang="te"] .hero-cta-row-top .btn-location-glass,
   html[lang="te"] .hero-cta-row-center .btn-register-cta,
-  html[lang="te"] .promise-banner .btn-gold-cta,
-  html[lang="te"] .promise-banner .btn-whatsapp,
-  html[lang="te"] .promise-banner .btn-register-cta,
-  html[lang="te"] .promise-banner .btn-location-glass,
+  html[lang="te"] .promise-actions a,
+  html[lang="te"] .promise-banner a,
   html[lang="te"] .guidance-actions a,
-  html[lang="te"] .nav-drawer .btn-primary,
-  html[lang="te"] .nav-drawer .btn-whatsapp,
-  html[lang="te"] .nav-drawer .btn-secondary {
-    font-size: 0.94rem !important;
+  html[lang="te"] .nav-drawer a {
+    font-size: 0.92rem !important;
   }
 
-  /* Medium Size Social Media Buttons on Mobile */
+  /* Centered Action Containers */
+  .guidance-actions,
+  .promise-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    gap: 0.52rem !important;
+  }
+
+  /* Pill-Shaped Social Media Buttons on Mobile */
   .social-card-cta {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 260px !important;
     min-height: 38px !important;
-    padding: 0.48rem 1rem !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
     font-size: 0.84rem !important;
+    gap: 0.5rem !important;
+    box-sizing: border-box !important;
   }
 
   html[lang="te"] .social-card-cta {
@@ -3998,7 +4063,7 @@ html, body {
     gap: 0.65rem !important;
   }
 
-  /* Medium Size Buttons for Tablets (iPads, Android Tablets) */
+  /* Pill Size Buttons for Tablets (iPads, Android Tablets) */
   .hero-cta-group .btn-gold-cta,
   .hero-cta-group .btn-whatsapp,
   .hero-cta-group .btn-register-cta,
@@ -4007,14 +4072,26 @@ html, body {
   .hero-cta-row-top .btn-whatsapp,
   .hero-cta-row-top .btn-location-glass,
   .hero-cta-row-center .btn-register-cta,
-  .promise-banner .btn-gold-cta,
-  .promise-banner .btn-whatsapp,
-  .promise-banner .btn-register-cta,
-  .promise-banner .btn-location-glass,
+  .promise-actions a,
+  .promise-banner a,
   .guidance-actions a {
-    min-height: 42px !important;
-    padding: 0.56rem 1.25rem !important;
-    font-size: 0.92rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 280px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    gap: 0.5rem !important;
+    box-sizing: border-box !important;
   }
 
   html[lang="te"] .hero-cta-group .btn-gold-cta,
@@ -4025,22 +4102,32 @@ html, body {
   html[lang="te"] .hero-cta-row-top .btn-whatsapp,
   html[lang="te"] .hero-cta-row-top .btn-location-glass,
   html[lang="te"] .hero-cta-row-center .btn-register-cta,
-  html[lang="te"] .promise-banner .btn-gold-cta,
-  html[lang="te"] .promise-banner .btn-whatsapp,
-  html[lang="te"] .promise-banner .btn-register-cta,
-  html[lang="te"] .promise-banner .btn-location-glass,
+  html[lang="te"] .promise-actions a,
+  html[lang="te"] .promise-banner a,
   html[lang="te"] .guidance-actions a {
-    font-size: 0.96rem !important;
+    font-size: 0.92rem !important;
   }
 
   .social-card-cta {
-    min-height: 40px !important;
-    padding: 0.52rem 1.15rem !important;
-    font-size: 0.86rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 260px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.84rem !important;
+    gap: 0.5rem !important;
   }
 
   html[lang="te"] .social-card-cta {
-    font-size: 0.9rem !important;
+    font-size: 0.88rem !important;
   }
 }
 
