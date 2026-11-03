@@ -262,6 +262,11 @@ function initMobileNav() {
     });
   }
 
+  const drawerCloseBtn = document.getElementById('drawerCloseBtn') || document.querySelector('.drawer-close-btn');
+  if (drawerCloseBtn) {
+    drawerCloseBtn.addEventListener('click', closeDrawer);
+  }
+
   if (drawerOverlay) {
     drawerOverlay.addEventListener('click', closeDrawer);
   }
