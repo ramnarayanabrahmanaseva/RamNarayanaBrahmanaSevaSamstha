@@ -14,7 +14,7 @@ const translations = {
     top_call: "కాల్: 87903 23977",
     nav_home: "ప్రధాన పేజీ",
     nav_about: "సంస్థ గురించి",
-    nav_services: "మా సేవలు",
+    nav_services: "మా కర్మలు",
     nav_benefits: "ప్రయోజనాలు",
     nav_why_us: "ఎందుకు ఎంచుకోవాలి",
     nav_gallery: "బ్యానర్లు & కరపత్రం",
@@ -187,9 +187,9 @@ const translations = {
     srv_diff_name: "మూడింటి తేడాలు",
 
     // Ritual Details Intake Form
-    nav_ritual_form: "కర్మ వివరాల ఫారం",
-    cta_register_ritual: "కర్మ వివరాల నమోదు",
-    form_badge: "ఆచరణ వివరాల నమోదు",
+    nav_ritual_form: "కర్మ బుకింగ్",
+    cta_register_ritual: "కర్మ బుకింగ్",
+    form_badge: "కర్మ బుకింగ్",
     form_title: "కర్మ నిర్వహణకు అవసరమైన వివరాలు",
     form_subtitle: "వేదోక్త మార్గదర్శకత్వం, తేదీ, ఏర్పాట్ల కోసం మీ కుటుంబ వివరాలను తెలియజేయండి",
     form_greeting: "🙏 నమస్కారం.",
@@ -302,7 +302,7 @@ const translations = {
     // Footer
     footer_desc: "హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పారణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.",
     footer_quick_links: "మా సంస్థను అన్వేషించండి",
-    footer_services: "సేవలు",
+    footer_services: "మా కర్మలు",
     footer_srv_2: "భోక్తల సేవ",
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
     footer_social_title: "సోషల్ మీడియా",
@@ -320,7 +320,7 @@ const translations = {
     top_call: "Call: 87903 23977",
     nav_home: "Home",
     nav_about: "About the Samstha",
-    nav_services: "Our Services",
+    nav_services: "Our Rituals",
     nav_benefits: "Benefits of Shraddha",
     nav_why_us: "Why Choose Us",
     nav_gallery: "Banners & Brochure",
@@ -493,9 +493,9 @@ const translations = {
     srv_diff_name: "Key Differences",
 
     // Ritual Details Intake Form
-    nav_ritual_form: "Ritual Details Form",
-    cta_register_ritual: "Sacred Ritual Registration",
-    form_badge: "Sacred Ritual Registration",
+    nav_ritual_form: "Ritual Booking",
+    cta_register_ritual: "Ritual Booking",
+    form_badge: "Ritual Booking",
     form_title: "Details Required<br>for<br>Ancestral Rituals",
     form_subtitle: "Submit your family details to receive Vedic guidance, auspicious date, and complete arrangements",
     form_greeting: "🙏 Namaskaram.",
