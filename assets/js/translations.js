@@ -188,6 +188,7 @@ const translations = {
 
     // Ritual Details Intake Form
     nav_ritual_form: "కర్మ వివరాల ఫారం",
+    cta_register_ritual: "కర్మ వివరాల నమోదు",
     form_badge: "ఆచరణ వివరాల నమోదు",
     form_title: "కర్మ నిర్వహణకు అవసరమైన వివరాలు",
     form_subtitle: "వేదోక్త మార్గదర్శకత్వం, తేదీ, ఏర్పాట్ల కోసం మీ కుటుంబ వివరాలను తెలియజేయండి",
@@ -493,6 +494,7 @@ const translations = {
 
     // Ritual Details Intake Form
     nav_ritual_form: "Ritual Details Form",
+    cta_register_ritual: "Sacred Ritual Registration",
     form_badge: "Sacred Ritual Registration",
     form_title: "Details Required<br>for<br>Ancestral Rituals",
     form_subtitle: "Submit your family details to receive Vedic guidance, auspicious date, and complete arrangements",
