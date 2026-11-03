@@ -317,6 +317,8 @@ const translations = {
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
     footer_social_title: "సోషల్ మీడియా",
     footer_rights: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
+    footer_rights_org: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ.",
+    footer_rights_reserved: "సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
     footer_developed: "నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
   },
 
@@ -633,6 +635,8 @@ const translations = {
     footer_contact_info: "Contact Information",
     footer_social_title: "Social Media",
     footer_rights: "Ram Narayana Brahmana Seva Samstha. All Rights Reserved.",
+    footer_rights_org: "Ram Narayana Brahmana Seva Samstha.",
+    footer_rights_reserved: "All Rights Reserved.",
     footer_developed: "Under the guidance of Namburi Adinarayana Sharma"
   }
 };
