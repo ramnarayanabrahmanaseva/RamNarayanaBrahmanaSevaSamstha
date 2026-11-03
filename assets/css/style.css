@@ -448,8 +448,8 @@ html[lang="te"] .marquee-item {
 
 /* Footer Section */
 html[lang="te"] .footer-brand h3 {
-  font-size: 1.75rem;
-  line-height: 1.4;
+  font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+  line-height: 1.35;
   letter-spacing: 0;
 }
 
@@ -3347,12 +3347,59 @@ html[lang="te"] .social-card-cta {
   display: inline;
 }
 
+.footer-brand-header {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.75rem, 1.8vw, 1.15rem);
+  margin-bottom: 0.95rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-emblem-wrap {
+  width: clamp(48px, 5.2vw, 62px);
+  height: clamp(48px, 5.2vw, 62px);
+  border-radius: 50%;
+  background: #FFFDF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border: 2px solid #D4AF37;
+  flex-shrink: 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 0 14px rgba(212, 175, 55, 0.35);
+  transition: transform var(--transition-bounce), box-shadow var(--transition-normal);
+}
+
+.footer-brand-header:hover .footer-emblem-wrap {
+  transform: scale(1.08) rotate(3deg);
+  box-shadow: 0 0 22px rgba(212, 175, 55, 0.6);
+}
+
+.footer-emblem-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.footer-brand-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
 .footer-brand h3 {
   font-family: var(--font-heading);
-  font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+  font-size: clamp(1.1rem, 2.3vw, 1.45rem);
   color: #FFE082;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
   line-height: 1.25;
+  transition: text-shadow var(--transition-fast);
+}
+
+.footer-brand-header:hover .footer-brand h3 {
+  text-shadow: 0 0 12px rgba(255, 224, 130, 0.4);
 }
 
 .footer-brand h3 .brand-line {
@@ -3361,16 +3408,16 @@ html[lang="te"] .social-card-cta {
 }
 
 .footer-brand-subtitle {
-  font-size: clamp(0.78rem, 1.5vw, 0.92rem);
+  font-size: clamp(0.75rem, 1.4vw, 0.88rem);
   font-weight: 700;
   color: #FFE082;
   letter-spacing: 0.3px;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0;
   opacity: 0.92;
 }
 
 html[lang="te"] .footer-brand-subtitle {
-  font-size: clamp(0.85rem, 1.7vw, 1rem);
+  font-size: clamp(0.82rem, 1.5vw, 0.95rem);
 }
 
 .footer-brand p {
