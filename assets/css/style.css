@@ -3264,13 +3264,25 @@ html[lang="te"] .benefit-context-desc {
 .social-card-cta {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0.75rem 1.15rem;
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.45rem 1.25rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
   font-weight: 700;
   color: #FFFFFF;
   transition: all var(--transition-fast);
+  align-self: center;
+  margin: 0 auto;
+  width: auto;
+  min-width: 200px;
+  max-width: 260px;
+  min-height: 38px;
+  box-sizing: border-box;
+}
+
+html[lang="te"] .social-card-cta {
+  font-size: 0.88rem;
 }
 
 .social-card-cta.ig-cta {
