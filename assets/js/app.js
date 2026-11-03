@@ -281,9 +281,33 @@ function initMobileNav() {
    ========================================================================== */
 function initScrollEffects() {
   const header = document.querySelector('.site-header');
-  const backToTopBtn = document.querySelector('.back-to-top');
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn') || document.querySelector('.back-to-top');
+  const scrollToBottomBtn = document.getElementById('scrollToBottomBtn') || document.querySelector('.scroll-to-bottom');
   const navLinks = document.querySelectorAll('.desktop-nav .nav-link');
   const sections = document.querySelectorAll('section[id], #home');
+
+  function updateScrollButtons() {
+    const scrollY = window.scrollY;
+    const maxScroll = (document.documentElement.scrollHeight || document.body.scrollHeight) - window.innerHeight;
+
+    // Up button: show when scrolled down > 250px
+    if (scrollToTopBtn) {
+      if (scrollY > 250) {
+        scrollToTopBtn.classList.add('visible');
+      } else {
+        scrollToTopBtn.classList.remove('visible');
+      }
+    }
+
+    // Down button: show until within 200px of page bottom
+    if (scrollToBottomBtn) {
+      if (scrollY < maxScroll - 200) {
+        scrollToBottomBtn.classList.add('visible');
+      } else {
+        scrollToBottomBtn.classList.remove('visible');
+      }
+    }
+  }
 
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY;
@@ -297,15 +321,7 @@ function initScrollEffects() {
       }
     }
 
-    // Back to top visibility - on mobile, only show after scrolling well past hero CTAs
-    if (backToTopBtn) {
-      const threshold = window.innerWidth < 768 ? 750 : 400;
-      if (scrollY > threshold) {
-        backToTopBtn.classList.add('visible');
-      } else {
-        backToTopBtn.classList.remove('visible');
-      }
-    }
+    updateScrollButtons();
 
     // ScrollSpy active link highlight
     let currentSectionId = '';
@@ -328,10 +344,22 @@ function initScrollEffects() {
     }
   });
 
-  if (backToTopBtn) {
-    backToTopBtn.addEventListener('click', () => {
+  // Initial check on load
+  updateScrollButtons();
+
+  if (scrollToTopBtn) {
+    scrollToTopBtn.addEventListener('click', () => {
       window.scrollTo({
         top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+
+  if (scrollToBottomBtn) {
+    scrollToBottomBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
         behavior: 'smooth'
       });
     });

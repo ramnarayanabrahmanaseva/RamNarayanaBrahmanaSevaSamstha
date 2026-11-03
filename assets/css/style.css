@@ -3672,11 +3672,28 @@ html[lang="te"] .footer-brand-subtitle {
   color: #25D366;
 }
 
-/* Back to Top Floating Button */
-.back-to-top {
+/* Floating Scroll Navigation Controls (Up and Down Circles) */
+.scroll-nav-controls {
   position: fixed;
   bottom: calc(72px + env(safe-area-inset-bottom, 0px));
   right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 95;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .scroll-nav-controls {
+    bottom: 30px;
+    right: 25px;
+    gap: 10px;
+  }
+}
+
+.scroll-nav-btn,
+.back-to-top {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -3691,27 +3708,35 @@ html[lang="te"] .footer-brand-subtitle {
   z-index: 95;
   opacity: 0;
   visibility: hidden;
+  transform: scale(0.85);
   transition: all var(--transition-fast);
+  pointer-events: auto;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
+  .scroll-nav-btn,
   .back-to-top {
-    bottom: 30px;
-    right: 25px;
-    width: 48px;
-    height: 48px;
+    width: 46px;
+    height: 46px;
   }
 }
 
+.scroll-nav-btn.visible,
 .back-to-top.visible {
   opacity: 1;
   visibility: visible;
+  transform: scale(1);
 }
 
-.back-to-top:hover {
+.scroll-nav-btn:hover,
+.scroll-nav-btn:active,
+.back-to-top:hover,
+.back-to-top:active {
   background: var(--color-secondary);
   color: #000000;
-  transform: translateY(-4px) scale(1.05);
+  border-color: var(--color-secondary-glow);
+  transform: scale(1.08);
   box-shadow: var(--shadow-gold-glow);
 }
 
