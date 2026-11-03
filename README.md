@@ -21,7 +21,7 @@
 
   <p align="center">
     📞 <strong>ఫోన్ నంబర్లు:</strong> <a href="tel:7780223977">+91 77802 23977</a> &nbsp;|&nbsp; <a href="tel:8790323977">+91 87903 23977</a><br>
-    💬 <strong>వాట్సాప్:</strong> <a href="https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.">+91 77802 23977</a><br>
+    💬 <strong>వాట్సాప్:</strong> <a href="https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%2C%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%20(%E0%B0%A6%E0%B0%BF%E0%B0%B2%E0%B1%8D%E0%B0%B8%E0%B1%81%E0%B0%96%E0%B1%8D%E0%B0%A8%E0%B0%97%E0%B0%B0%E0%B1%8D).%0A%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.">+91 77802 23977</a><br>
     🌐 <strong>అధికారిక వెబ్‌సైట్:</strong> <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank">ramnarayana-brahmana-sevasamstha.vercel.app</a>
   </p>
 
@@ -219,7 +219,7 @@ In modern metropolitan living, performing rituals at home—especially inside ap
 | 📸 **Instagram** | [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
 | 📘 **Facebook** | [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) |
 | 🎥 **YouTube** | [@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) |
-| 💬 **WhatsApp** | [Connect on WhatsApp (+91 77802 23977)](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
+| 💬 **WhatsApp** | [Connect on WhatsApp (+91 77802 23977)](https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%2C%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%20(%E0%B0%A6%E0%B0%BF%E0%B0%B2%E0%B1%8D%E0%B0%B8%E0%B1%81%E0%B0%96%E0%B1%8D%E0%B0%A8%E0%B0%97%E0%B0%B0%E0%B1%8D).%0A%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.) |
 
 ---
 
@@ -232,7 +232,7 @@ In modern metropolitan living, performing rituals at home—especially inside ap
 | **నిర్వాహకులు & దివ్య పర్యవేక్షణ** | **నంబూరి ఆదినారాయణ శర్మ (Namburi Adinarayana Sharma)** |
 | **పూర్తి చిరునామా (Address)** | H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్, తెలంగాణ – 500060 |
 | **ఫోన్ నంబర్లు (Calling)** | 📞 [**+91 77802 23977**](tel:7780223977) &nbsp;\|&nbsp; 📞 [**+91 87903 23977**](tel:8790323977) |
-| **వాట్సాప్ సంప్రదింపు (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
+| **వాట్సాప్ సంప్రదింపు (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%2C%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%20(%E0%B0%A6%E0%B0%BF%E0%B0%B2%E0%B1%8D%E0%B0%B8%E0%B1%81%E0%B0%96%E0%B1%8D%E0%B0%A8%E0%B0%97%E0%B0%B0%E0%B1%8D).%0A%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.) |
 | **ఈమెయిల్ (Email)** | ✉️ [ramnarayanabrahmanasevasamstha@gmail.com](mailto:ramnarayanabrahmanasevasamstha@gmail.com) |
 | **అధికారిక వెబ్‌సైట్** | 🌐 [ramnarayana-brahmana-sevasamstha.vercel.app](https://ramnarayana-brahmana-sevasamstha.vercel.app/) |
 | **గూగుల్ మ్యాప్స్ లొకేషన్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw) |
