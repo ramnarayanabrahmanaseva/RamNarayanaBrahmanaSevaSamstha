@@ -3357,19 +3357,18 @@ html[lang="te"] .social-card-cta {
 }
 
 .footer-logo-wrap {
-  width: clamp(68px, 7.5vw, 90px);
-  height: clamp(68px, 7.5vw, 90px);
+  width: clamp(70px, 7.8vw, 92px);
+  height: clamp(70px, 7.8vw, 92px);
   border-radius: 50%;
-  background: transparent !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 !important;
+  padding: 0;
   border: 2px solid #D4AF37;
   flex-shrink: 0;
   box-shadow:
-    0 0 20px rgba(212, 175, 55, 0.48),
-    0 0 42px rgba(212, 175, 55, 0.24),
+    0 0 20px rgba(212, 175, 55, 0.5),
+    0 0 42px rgba(212, 175, 55, 0.25),
     0 4px 16px rgba(0, 0, 0, 0.6);
   transition: transform var(--transition-bounce), box-shadow var(--transition-normal);
   overflow: hidden;
