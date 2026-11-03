@@ -207,6 +207,10 @@ html[lang="te"] .feature-title,
 html[lang="te"] .feature-desc,
 html[lang="te"] .contact-item h4,
 html[lang="te"] .contact-item p,
+html[lang="te"] .guidance-title,
+html[lang="te"] .guidance-desc,
+html[lang="te"] .guidance-badge,
+html[lang="te"] .guidance-note-box,
 [lang="te"],
 :lang(te),
 .font-telugu {
@@ -2430,6 +2434,95 @@ html[lang="te"] .promise-desc {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+/* Guidance Card in Sacred Sequence & Clarity */
+.guidance-card {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFFDF8 60%, #FFF8EC 100%);
+  border: 2px solid var(--border-gold);
+  border-radius: var(--radius-xl);
+  padding: clamp(1.75rem, 4vw, 2.75rem);
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(184, 134, 11, 0.15), 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 2.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.guidance-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(184, 134, 11, 0.12);
+  border: 1px solid var(--border-gold);
+  padding: 0.35rem 0.95rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 0.95rem;
+}
+
+html[lang="te"] .guidance-badge {
+  font-size: 0.92rem;
+}
+
+.guidance-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 3vw, 2.15rem);
+  font-weight: 900;
+  color: var(--color-primary);
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+}
+
+.guidance-desc {
+  font-size: clamp(0.95rem, 1.6vw, 1.12rem);
+  color: var(--text-main);
+  max-width: 780px;
+  margin: 0 auto 1.25rem;
+  line-height: 1.75;
+}
+
+html[lang="te"] .guidance-desc {
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  line-height: 1.85;
+}
+
+.guidance-note-box {
+  background: rgba(184, 134, 11, 0.08);
+  border: 1px dashed var(--border-gold-strong);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1.25rem;
+  max-width: 720px;
+  margin: 0 auto 1.75rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.6;
+}
+
+html[lang="te"] .guidance-note-box {
+  font-size: 0.98rem;
+}
+
+.guidance-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .guidance-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .guidance-actions a {
+    width: 100% !important;
+  }
 }
 
 /* Benefits Ritual Context Banner */

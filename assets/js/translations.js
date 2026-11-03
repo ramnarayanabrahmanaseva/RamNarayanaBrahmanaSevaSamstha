@@ -148,6 +148,10 @@ const translations = {
     remember_1: "మాసికం:<br>మొదటి సంవత్సరం ప్రతి నెలా",
     remember_2: "సంవత్సరికం:<br>సంవత్సరం పూర్తయ్యాక ఒక్కసారి",
     remember_3: "ఆ తర్వాత ప్రతి ఏటా:<br>ఆబ్దికం",
+    guidance_badge: "శాస్త్రోక్త మార్గదర్శకత్వం & సంప్రదాయ సలహా",
+    guidance_title: "తిథి లేదా కర్మ ఎంపికలో సందేహాలు ఉన్నాయా?",
+    guidance_desc: "మీ పితృదేవతల సరైన తిథి తెలియకపోయినా లేదా ఏ కర్మ ఎప్పుడు నిర్వహించాలో స్పష్టత లేకపోయినా — మా వేద పండితులు శాస్త్రోక్తంగా పరిశీలించి సరైన తిథి నిర్ణయం మరియు సంపూర్ణ మార్గదర్శకత్వం అందిస్తారు.",
+    guidance_note: "💡 తిథి తెలియకపోతే మరణించిన ఇంగ్లీష్ తేదీని తెలియజేయండి; మా పండితులు సరైన తిథిని లెక్కించి తెలియజేస్తారు.",
     promise_title: "మిగతాది మేము చూసుకుంటాము 🙏",
     promise_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో — సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
 
@@ -456,6 +460,10 @@ const translations = {
     remember_1: "Masikam:<br>Every month during the first year",
     remember_2: "Samvatsarikam:<br>Once upon completion of the year",
     remember_3: "Abdikam:<br>Every year thereafter",
+    guidance_badge: "Vedic Guidance & Shastra Consultation",
+    guidance_title: "Need Help with Tithi Calculation or Ritual Selection?",
+    guidance_desc: "If you are unsure of the exact Tithi or need clarity on the appropriate ritual to perform — our experienced Vedic scholars will calculate the Tithi according to the Shastras and provide comprehensive guidance.",
+    guidance_note: "💡 If the exact Tithi is unknown, simply provide the date of demise; our scholars will determine the correct Vedic Tithi for you.",
     promise_title: "We Will Take Care of Everything Else 🙏",
     promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals — fully managed at our Dilsukhnagar Samstha premises.",
 
