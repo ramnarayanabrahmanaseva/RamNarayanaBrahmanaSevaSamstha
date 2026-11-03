@@ -1,11 +1,11 @@
 const whatsappMessages = {
   te: {
-    general: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
-    masikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    samvatsarikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    abdikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    pinda: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    promise: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
+    general: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
+    masikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    samvatsarikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    abdikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    pinda: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    promise: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
   },
   en: {
     general: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about your ancestral services.",
@@ -97,7 +97,7 @@ function setLanguage(lang) {
   localStorage.setItem('rnbs_lang', lang);
 
   if (lang === 'te') {
-    document.title = "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్సుఖ్నగర్, హైదరాబాద్";
+    document.title = "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్‌సుఖ్‌నగర్, హైదరాబాద్";
   } else {
     document.title = "Ram Narayana Brahmana Seva Samstha - Dilsukhnagar, Hyderabad";
   }
@@ -157,19 +157,19 @@ function setLanguage(lang) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     metaDesc.content = lang === 'te' 
-      ? "హైదరాబాద్ దిల్సుఖ్నగర్లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
+      ? "హైదరాబాద్ దిల్‌సుఖ్‌నగర్లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
       : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals (Pitru Karyas - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam) conducted strictly as per Shastras.";
   }
   const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) {
     ogDesc.content = lang === 'te'
-      ? "• సంప్రదాయం • భక్తి • సేవ - బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ. దిల్సుఖ్నగర్, హైదరాబాద్. Call: +91 7780223977, +91 8790323977"
+      ? "• సంప్రదాయం • భక్తి • సేవ - బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ. దిల్‌సుఖ్‌నగర్, హైదరాబాద్. Call: +91 7780223977, +91 8790323977"
       : "• Tradition • Devotion • Service - Brahmin Ancestral Rituals Organization. Dilsukhnagar, Hyderabad. Call: +91 7780223977, +91 8790323977";
   }
   const ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) {
     ogTitle.content = lang === 'te'
-      ? "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్సుఖ్నగర్, హైదరాబాద్"
+      ? "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్‌సుఖ్‌నగర్, హైదరాబాద్"
       : "Ram Narayana Brahmana Seva Samstha - Dilsukhnagar, Hyderabad";
   }
 
@@ -492,7 +492,7 @@ We kindly request you to review the above details and guide us with the procedur
 Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
     } else {
       return `నమస్కారం,
-రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).
 
 
 కర్మకు సంబంధించిన వివరాలు :

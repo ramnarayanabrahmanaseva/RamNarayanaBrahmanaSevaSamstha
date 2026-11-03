@@ -2112,10 +2112,10 @@ html[lang="te"] .service-sub-label {
    4. Differences Section (మాసికం, సంవత్సరికం, ఆబ్దికం... తేడా తెలుసా?)
    ========================================================================== */
 .differences-section {
-  background: var(--bg-alt);
+  background: linear-gradient(180deg, #F4ECE1 0%, #EDE3D4 100%);
   padding: clamp(3rem, 6vw, 5.5rem) 0;
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
+  border-top: 1px solid var(--border-gold);
+  border-bottom: 1px solid var(--border-gold);
   position: relative;
 }
 
@@ -2369,9 +2369,10 @@ html[lang="te"] .benefit-context-desc {
    10. Spiritual Significance / Benefits Section (6 Pillars)
    ========================================================================== */
 .benefits-section {
-  background: var(--bg-alt);
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
+  background: linear-gradient(180deg, #FFF7EE 0%, #FCECD9 50%, #FAF0E1 100%);
+  border-top: 1px solid var(--border-gold);
+  border-bottom: 1px solid var(--border-gold);
+  position: relative;
 }
 
 .benefits-grid {
