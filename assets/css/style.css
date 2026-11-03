@@ -241,6 +241,16 @@ html[lang="te"] {
 }
 
 /* Mobile Devices (iPhones, Android Phones, Small Screens) */
+/* Multi-line Brand Title for Mobile & Tablets (< 1200px: iPhone, Android, iPads, Tabs) */
+@media (max-width: 1199px) {
+  .brand-title .brand-line,
+  .footer-brand h3 .brand-line,
+  .drawer-brand-title .brand-line {
+    display: block;
+    line-height: 1.2;
+  }
+}
+
 @media (max-width: 600px) {
   html[lang="te"] {
     font-size: 18px;
@@ -3300,11 +3310,29 @@ html[lang="te"] .benefit-context-desc {
   }
 }
 
+.brand-line {
+  display: inline;
+}
+
 .footer-brand h3 {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 2.5vw, 1.55rem);
   color: #FFE082;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.35rem;
+  line-height: 1.25;
+}
+
+.footer-brand-subtitle {
+  font-size: clamp(0.78rem, 1.5vw, 0.92rem);
+  font-weight: 700;
+  color: #FFE082;
+  letter-spacing: 0.3px;
+  margin-bottom: 0.85rem;
+  opacity: 0.92;
+}
+
+html[lang="te"] .footer-brand-subtitle {
+  font-size: clamp(0.85rem, 1.7vw, 1rem);
 }
 
 .footer-brand p {

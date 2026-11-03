@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Ramabhadra&family=Noto+Sans+Telugu:wght@400;500;600;700;800&display=swap">
 
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css?v=20261103-20">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261103-21">
 
   <!-- Schema.org JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -89,7 +89,9 @@
           <img src="assets/images/logo.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ లోగో" data-i18n-alt="brand_logo_alt">
         </div>
         <div class="brand-text">
-          <h1 class="brand-title" data-i18n="brand_title">రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ</h1>
+          <h1 class="brand-title" data-i18n-html="brand_title_multiline">
+            <span class="brand-line">రామ్ నారాయణ</span> <span class="brand-line">బ్రాహ్మణ</span> <span class="brand-line">సేవా సంస్థ</span>
+          </h1>
           <span class="brand-subtitle" data-i18n="hero_badge">• సంప్రదాయం  • భక్తి  • సేవ</span>
         </div>
       </a>
@@ -158,8 +160,10 @@
             <img src="assets/images/logo.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ లోగో" data-i18n-alt="brand_logo_alt">
           </div>
           <div class="brand-text">
-            <strong class="brand-title drawer-brand-title" data-i18n-html="hero_title_main">రామ్ నారాయణ<br>బ్రాహ్మణ<br>సేవా సంస్థ</strong>
-            <small data-i18n="top_invocation" class="drawer-invocation">ఓం శ్రీ మాత్రే నమః</small>
+            <strong class="brand-title drawer-brand-title" data-i18n-html="brand_title_multiline">
+              <span class="brand-line">రామ్ నారాయణ</span> <span class="brand-line">బ్రాహ్మణ</span> <span class="brand-line">సేవా సంస్థ</span>
+            </strong>
+            <small data-i18n="hero_badge" class="drawer-invocation">• సంప్రదాయం  • భక్తి  • సేవ</small>
           </div>
         </div>
         <button type="button" class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close Navigation Menu">
@@ -1339,7 +1343,12 @@
       <div class="footer-grid">
         
         <div class="footer-brand">
-          <h3 data-i18n="hero_title_main">రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ</h3>
+          <h3 class="footer-brand-title" data-i18n-html="brand_title_multiline">
+            <span class="brand-line">రామ్ నారాయణ</span> <span class="brand-line">బ్రాహ్మణ</span> <span class="brand-line">సేవా సంస్థ</span>
+          </h3>
+          <div class="footer-brand-subtitle" data-i18n="hero_badge">
+            • సంప్రదాయం  • భక్తి  • సేవ
+          </div>
           <p data-i18n="footer_desc">
             హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పారణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.
           </p>
@@ -1462,8 +1471,8 @@
   </button>
 
   <!-- JavaScript Modules -->
-  <script src="assets/js/translations.js?v=20261103-20"></script>
-  <script src="assets/js/app.js?v=20261103-20"></script>
+  <script src="assets/js/translations.js?v=20261103-21"></script>
+  <script src="assets/js/app.js?v=20261103-21"></script>
   <script>
     document.getElementById('yearCopy').textContent = new Date().getFullYear();
   </script>

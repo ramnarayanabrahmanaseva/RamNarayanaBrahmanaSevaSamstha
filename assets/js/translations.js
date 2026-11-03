@@ -25,6 +25,7 @@ const translations = {
     nav_location_btn: "గూగుల్ మ్యాప్స్",
     drawer_call_cta: "📞 +91 77802 23977",
     brand_title: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
+    brand_title_multiline: '<span class="brand-line">రామ్ నారాయణ</span> <span class="brand-line">బ్రాహ్మణ</span> <span class="brand-line">సేవా సంస్థ</span>',
 
     // Hero Section
     pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్.",
@@ -340,6 +341,7 @@ const translations = {
     nav_location_btn: "Google Maps",
     drawer_call_cta: "📞 +91 77802 23977",
     brand_title: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
+    brand_title_multiline: '<span class="brand-line">RAM NARAYANA</span> <span class="brand-line">BRAHMANA</span> <span class="brand-line">SEVA SAMSTHA</span>',
 
     // Hero Section
     pill_loc: "Dilsukhnagar, Hyderabad.",
