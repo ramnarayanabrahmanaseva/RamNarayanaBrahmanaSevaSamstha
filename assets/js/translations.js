@@ -265,6 +265,17 @@ const translations = {
     form_btn_call: "ఫోన్‌లో మాట్లాడండి 📞",
     form_copied_msg: "వివరాలు క్లిప్‌బోర్డ్‌కు కాపీ అయ్యాయి!",
 
+    // Dedicated In-Section Media Showcase Keys
+    sec_cat_badge: "అధికారిక సేవా కేటలాగ్",
+    sec_cat_title: "వైదిక సేవా కేటలాగ్ బ్రోచర్లు",
+    sec_cat_sub: "మా సమగ్ర సేవా వివరాలు, విధానాలు మరియు ఏర్పాట్లకు సంబంధించిన అధికారిక కేటలాగ్ పత్రాలు",
+    sec_flyer_badge: "అధికారిక కరపత్రం",
+    sec_flyer_title: "పితృకర్మల విశిష్టత & సేవా కరపత్రం",
+    sec_flyer_sub: "శాస్త్ర విశ్వాసాలు, పితృకార్యాల ప్రాధాన్యత మరియు సేవా వివరాల పూర్తి కరపత్రం",
+    sec_card_badge: "అధికారిక కార్డు",
+    sec_card_title: "సంస్థ అధికారిక విజిటింగ్ కార్డు",
+    sec_card_sub: "సంప్రదించాల్సిన చిరునామా, ఫోన్ నంబర్లు మరియు సేవా వివరాలతో కూడిన అధికారిక కార్డు",
+
     // Gallery / Brochure Section
     gallery_badge: "సంస్థ వివరాలు & బ్యానర్లు",
     gallery_title: "అధికారిక బ్యానర్లు, కార్డు & సేవా కేటలాగ్",
@@ -617,6 +628,17 @@ const translations = {
     form_btn_copy: "Copy Details 📋",
     form_btn_call: "Call Directly 📞",
     form_copied_msg: "Details copied to clipboard!",
+
+    // Dedicated In-Section Media Showcase Keys
+    sec_cat_badge: "Official Services Catalogue",
+    sec_cat_title: "Vedic Services Official Catalogues",
+    sec_cat_sub: "Official catalogue documents detailing our complete Vedic rituals, procedures, and sacred arrangements",
+    sec_flyer_badge: "Official Rituals Brochure",
+    sec_flyer_title: "Ancestral Rituals & Spiritual Significance Pamphlet",
+    sec_flyer_sub: "Complete brochure detailing sacred Shastric significance, ancestral peace, and our ritual services",
+    sec_card_badge: "Official Contact Card",
+    sec_card_title: "Official Visiting Card",
+    sec_card_sub: "Official card featuring complete address, direct phone numbers, and ritual inquiry details",
 
     // Gallery / Brochure Section
     gallery_badge: "Samstha Media & Credentials",
