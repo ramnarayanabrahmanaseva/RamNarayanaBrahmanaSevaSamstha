@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   initScrollEffects();
   initLightbox();
+  initGalleryFilter();
   initRitualForm();
 });
 
@@ -609,4 +610,36 @@ Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
       toast.classList.remove('show');
     }, 3500);
   }
+}
+
+/* ==========================================================================
+   Gallery Category & Language Filter
+   ========================================================================== */
+function initGalleryFilter() {
+  const filterBtns = document.querySelectorAll('.gallery-tab-btn');
+  const cards = document.querySelectorAll('.gallery-grid .gallery-card');
+
+  if (!filterBtns.length || !cards.length) return;
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+      cards.forEach(card => {
+        const lang = card.getAttribute('data-card-lang');
+        if (filter === 'all' || lang === filter) {
+          card.style.display = 'flex';
+          card.style.opacity = '0';
+          setTimeout(() => {
+            card.style.transition = 'opacity 0.3s ease';
+            card.style.opacity = '1';
+          }, 15);
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
 }

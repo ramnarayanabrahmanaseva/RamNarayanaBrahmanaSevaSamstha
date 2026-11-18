@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Ramabhadra&family=Noto+Sans+Telugu:wght@400;500;600;700;800&display=swap">
 
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css?v=20261118-01">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261118-02">
 
   <!-- Schema.org JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -1098,81 +1098,172 @@
     </section>
 
     <!-- ==========================================================================
-         Official Cards & Flyer Lightbox Showcase
+         Official Cards & Flyer Lightbox Showcase (Bilingual: Telugu & English)
          ========================================================================== -->
     <section id="gallery" class="gallery-section">
       <div class="container">
         
         <div class="section-header">
           <span class="section-badge" data-i18n="gallery_badge">సంస్థ వివరాలు & బ్యానర్లు</span>
-          <h2 class="section-title" data-i18n="gallery_title">అధికారిక బ్యానర్, కార్డు & కరపత్రం</h2>
-          <p class="section-subtitle" data-i18n="gallery_sub">మా సరికొత్త అధికారిక బ్యానర్, విజిటింగ్ కార్డు మరియు పూర్తి సేవా కరపత్రం</p>
+          <h2 class="section-title" data-i18n="gallery_title">అధికారిక బ్యానర్లు, కార్డు & సేవా కేటలాగ్</h2>
+          <p class="section-subtitle" data-i18n="gallery_sub">మా అధికారిక బ్యానర్, విజిటింగ్ కార్డు, కరపత్రం మరియు సంపూర్ణ సేవా కేటలాగ్ బ్రోచర్లు (తెలుగు & ఇంగ్లీష్)</p>
+        </div>
+
+        <!-- Language Filter Switcher Tabs -->
+        <div class="gallery-tabs-container">
+          <button type="button" class="gallery-tab-btn active" data-filter="all">
+            <span class="tab-icon">📁</span>
+            <span data-i18n="gallery_tab_all">అన్ని పత్రాలు (10)</span>
+          </button>
+          <button type="button" class="gallery-tab-btn" data-filter="te">
+            <span class="tab-icon">🇮🇳</span>
+            <span data-i18n="gallery_tab_te">తెలుగు వెర్షన్ (5)</span>
+          </button>
+          <button type="button" class="gallery-tab-btn" data-filter="en">
+            <span class="tab-icon">🌐</span>
+            <span data-i18n="gallery_tab_en">English Version (5)</span>
+          </button>
         </div>
 
         <div class="gallery-grid">
           
-          <!-- Card 1: Official Grand Banner -->
-          <div class="gallery-card">
+          <!-- Card 1 (TE): Grand Banner (Telugu) -->
+          <div class="gallery-card" data-card-lang="te">
             <div class="gallery-image-wrap">
-              <img src="assets/images/banner-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ అధికారిక గ్రాండ్ బ్యానర్" data-i18n-src="banner_img_src" data-i18n-alt="banner_main_alt">
+              <img src="assets/images/banner-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ అధికారిక గ్రాండ్ బ్యానర్ (తెలుగు)" loading="lazy" data-i18n-alt="banner_te_alt">
               <div class="gallery-zoom-overlay">
                 <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
               </div>
             </div>
             <div class="gallery-info">
-              <h3 data-i18n="banner_main_title">అధికారిక సంస్థ బ్యానర్</h3>
+              <span class="gallery-lang-badge te" data-i18n="gallery_tag_te">తెలుగు వెర్షన్</span>
+              <h3 data-i18n="banner_te_title">అధికారిక సంస్థ బ్యానర్ (తెలుగు)</h3>
             </div>
           </div>
 
-          <!-- Card 2: Official Visiting Card -->
-          <div class="gallery-card">
+          <!-- Card 2 (TE): Visiting Card (Telugu) -->
+          <div class="gallery-card" data-card-lang="te">
             <div class="gallery-image-wrap">
-              <img src="assets/images/visiting-card-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ అధికారిక విజిటింగ్ కార్డు" data-i18n-src="card_img_src" data-i18n-alt="card_cream_alt">
+              <img src="assets/images/visiting-card-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ అధికారిక విజిటింగ్ కార్డు (తెలుగు)" loading="lazy" data-i18n-alt="card_te_alt">
               <div class="gallery-zoom-overlay">
                 <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
               </div>
             </div>
             <div class="gallery-info">
-              <h3 data-i18n="card_cream_title">అధికారిక విజిటింగ్ కార్డు</h3>
+              <span class="gallery-lang-badge te" data-i18n="gallery_tag_te">తెలుగు వెర్షన్</span>
+              <h3 data-i18n="card_te_title">అధికారిక విజిటింగ్ కార్డు (తెలుగు)</h3>
             </div>
           </div>
 
-          <!-- Card 3: Official Pamphlet / Flyer -->
-          <div class="gallery-card">
+          <!-- Card 3 (TE): Pamphlet / Flyer (Telugu) -->
+          <div class="gallery-card" data-card-lang="te">
             <div class="gallery-image-wrap">
-              <img src="assets/images/flyer-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ అధికారిక కరపత్రం" data-i18n-src="flyer_img_src" data-i18n-alt="flyer_img_alt">
+              <img src="assets/images/flyer-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ అధికారిక కరపత్రం (తెలుగు)" loading="lazy" data-i18n-alt="flyer_te_alt">
               <div class="gallery-zoom-overlay">
                 <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
               </div>
             </div>
             <div class="gallery-info">
-              <h3 data-i18n="card_pamphlet_title">పితృకర్మల వివరాల కరపత్రం</h3>
+              <span class="gallery-lang-badge te" data-i18n="gallery_tag_te">తెలుగు వెర్షన్</span>
+              <h3 data-i18n="flyer_te_title">పితృకర్మల వివరాల కరపత్రం (తెలుగు)</h3>
             </div>
           </div>
 
-          <!-- Card 4: Services Catalogue - Part 1 -->
-          <div class="gallery-card">
+          <!-- Card 4 (TE): Services Catalogue Part 1 (Telugu) -->
+          <div class="gallery-card" data-card-lang="te">
             <div class="gallery-image-wrap">
-              <img src="assets/images/catalogue1-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ వైదిక సేవా కేటలాగ్ - భాగం 1" data-i18n-src="catalogue1_img_src" data-i18n-alt="catalogue1_img_alt">
+              <img src="assets/images/catalogue1-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ వైదిక సేవా కేటలాగ్ 1 (తెలుగు)" loading="lazy" data-i18n-alt="catalogue1_te_alt">
               <div class="gallery-zoom-overlay">
                 <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
               </div>
             </div>
             <div class="gallery-info">
-              <h3 data-i18n="catalogue1_title">వైదిక సేవా కేటలాగ్ - భాగం 1</h3>
+              <span class="gallery-lang-badge te" data-i18n="gallery_tag_te">తెలుగు వెర్షన్</span>
+              <h3 data-i18n="catalogue1_te_title">వైదిక సేవా కేటలాగ్ - భాగం 1 (తెలుగు)</h3>
             </div>
           </div>
 
-          <!-- Card 5: Services Catalogue - Part 2 -->
-          <div class="gallery-card">
+          <!-- Card 5 (TE): Services Catalogue Part 2 (Telugu) -->
+          <div class="gallery-card" data-card-lang="te">
             <div class="gallery-image-wrap">
-              <img src="assets/images/catalogue2-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ వైదిక సేవా కేటలాగ్ - భాగం 2" data-i18n-src="catalogue2_img_src" data-i18n-alt="catalogue2_img_alt">
+              <img src="assets/images/catalogue2-te.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ వైదిక సేవా కేటలాగ్ 2 (తెలుగు)" loading="lazy" data-i18n-alt="catalogue2_te_alt">
               <div class="gallery-zoom-overlay">
                 <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
               </div>
             </div>
             <div class="gallery-info">
-              <h3 data-i18n="catalogue2_title">వైదిక సేవా కేటలాగ్ - భాగం 2</h3>
+              <span class="gallery-lang-badge te" data-i18n="gallery_tag_te">తెలుగు వెర్షన్</span>
+              <h3 data-i18n="catalogue2_te_title">వైదిక సేవా కేటలాగ్ - భాగం 2 (తెలుగు)</h3>
+            </div>
+          </div>
+
+          <!-- Card 6 (EN): Grand Banner (English) -->
+          <div class="gallery-card" data-card-lang="en">
+            <div class="gallery-image-wrap">
+              <img src="assets/images/banner-en.png" alt="Ram Narayana Brahmana Seva Samstha Official Grand Banner (English)" loading="lazy" data-i18n-alt="banner_en_alt">
+              <div class="gallery-zoom-overlay">
+                <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-lang-badge en" data-i18n="gallery_tag_en">English Version</span>
+              <h3 data-i18n="banner_en_title">Official Grand Banner (English)</h3>
+            </div>
+          </div>
+
+          <!-- Card 7 (EN): Visiting Card (English) -->
+          <div class="gallery-card" data-card-lang="en">
+            <div class="gallery-image-wrap">
+              <img src="assets/images/visiting-card-en.png" alt="Ram Narayana Brahmana Seva Samstha Official Visiting Card (English)" loading="lazy" data-i18n-alt="card_en_alt">
+              <div class="gallery-zoom-overlay">
+                <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-lang-badge en" data-i18n="gallery_tag_en">English Version</span>
+              <h3 data-i18n="card_en_title">Official Visiting Card (English)</h3>
+            </div>
+          </div>
+
+          <!-- Card 8 (EN): Pamphlet / Flyer (English) -->
+          <div class="gallery-card" data-card-lang="en">
+            <div class="gallery-image-wrap">
+              <img src="assets/images/flyer-en.png" alt="Ram Narayana Brahmana Seva Samstha Official Brochure (English)" loading="lazy" data-i18n-alt="flyer_en_alt">
+              <div class="gallery-zoom-overlay">
+                <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-lang-badge en" data-i18n="gallery_tag_en">English Version</span>
+              <h3 data-i18n="flyer_en_title">Ancestral Rituals Pamphlet (English)</h3>
+            </div>
+          </div>
+
+          <!-- Card 9 (EN): Services Catalogue Part 1 (English) -->
+          <div class="gallery-card" data-card-lang="en">
+            <div class="gallery-image-wrap">
+              <img src="assets/images/catalogue1-en.png" alt="Ram Narayana Brahmana Seva Samstha Vedic Services Catalogue 1 (English)" loading="lazy" data-i18n-alt="catalogue1_en_alt">
+              <div class="gallery-zoom-overlay">
+                <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-lang-badge en" data-i18n="gallery_tag_en">English Version</span>
+              <h3 data-i18n="catalogue1_en_title">Vedic Services Catalogue - Part 1 (English)</h3>
+            </div>
+          </div>
+
+          <!-- Card 10 (EN): Services Catalogue Part 2 (English) -->
+          <div class="gallery-card" data-card-lang="en">
+            <div class="gallery-image-wrap">
+              <img src="assets/images/catalogue2-en.png" alt="Ram Narayana Brahmana Seva Samstha Vedic Services Catalogue 2 (English)" loading="lazy" data-i18n-alt="catalogue2_en_alt">
+              <div class="gallery-zoom-overlay">
+                <button class="gallery-zoom-btn" data-i18n="btn_view_full">పూర్తి చిత్రం చూడండి 🔍</button>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-lang-badge en" data-i18n="gallery_tag_en">English Version</span>
+              <h3 data-i18n="catalogue2_en_title">Vedic Services Catalogue - Part 2 (English)</h3>
             </div>
           </div>
 
@@ -1510,8 +1601,8 @@
   </div>
 
   <!-- JavaScript Modules -->
-  <script src="assets/js/translations.js?v=20261118-01"></script>
-  <script src="assets/js/app.js?v=20261118-01"></script>
+  <script src="assets/js/translations.js?v=20261118-02"></script>
+  <script src="assets/js/app.js?v=20261118-02"></script>
   <script>
     document.getElementById('yearCopy').textContent = new Date().getFullYear();
   </script>
